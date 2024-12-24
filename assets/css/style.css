@@ -1,0 +1,49 @@
+header .mydropdown{
+  position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: 0.7s;
+}
+header .mydropdown:hover li{
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  transition: 0.7s;
+}
+
+
+header .my_dropdown_item:hover .mydropdown{
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  z-index: 99;
+}
+header .my_dropdown_item:hover .mydropdown  li{
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  
+}
+.banner_section{
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+
+.slider_section .carousel-indicators [data-bs-target] {
+	
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50%;
+}
+.gallery_section .gallery_image {
+  overflow: hidden;
+  
+}
+.gallery_section .gallery_image  img{
+  transition: .7s;
+}
+.gallery_section .gallery_image img:hover{
+  transform: scale(1.1);
+}
