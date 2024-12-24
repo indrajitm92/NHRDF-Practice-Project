@@ -12,7 +12,6 @@ header .mydropdown:hover li{
   transition: 0.7s;
 }
 
-
 header .my_dropdown_item:hover .mydropdown{
   visibility: visible;
   opacity: 1;
